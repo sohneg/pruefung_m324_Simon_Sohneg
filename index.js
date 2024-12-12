@@ -1,9 +1,9 @@
 import chalk from 'chalk';
 
-let myUnusedVariable = 42; // Fehler: no-unused-vars und prefer-const
+let myUnusedVariable = 42;
 
-var dynamicValue = "42"; // Dynamische Variable
-if (dynamicValue == "1") { // Kein konstanten Vergleich mehr
+var dynamicValue = "42";
+if (dynamicValue == "1") { 
     console.log('This is a weak equality check.');
 }
 
