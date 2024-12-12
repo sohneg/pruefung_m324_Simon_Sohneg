@@ -4,10 +4,11 @@
   "description": "Prüfung M324",
   "main": "index.js",
   "scripts": {
-    "start": "npm run lint && npm run format-check && node index.js",
+    "start": "npm run lint && npm run format-check && npm run convert && node index.js",
     "lint": "eslint .",
     "format": "prettier --write .",
-    "format-check": "prettier --check ."
+    "format-check": "prettier --check .",
+    "convert": "node convert.js"
   },
   "author": "",
   "license": "ISC",
@@ -15,6 +16,7 @@
   "dependencies": {
     "chalk": "^5.3.0",
     "eslint": "^9.16.0",
+    "marked": "^15.0.3",
     "prettier": "^3.4.2"
   }
 }
