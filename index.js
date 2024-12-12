@@ -2,9 +2,19 @@ import chalk from 'chalk';
 
 let myUnusedVariable = 42;
 
-var dynamicValue = "42";
-if (dynamicValue == "1") { 
-    console.log('This is a weak equality check.');
+var dynamicValue =
+  '42';
+if (
+  dynamicValue ==
+  '1'
+) {
+  console.log(
+    'This is a weak equality check.',
+  );
 }
 
-console.log(chalk.blue('It works'));
+console.log(
+  chalk.blue(
+    'It works',
+  ),
+);
