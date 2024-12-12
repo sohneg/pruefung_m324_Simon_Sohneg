@@ -1,4 +1,4 @@
-import chalk from 'chalk';
+import chalk from 'chalk'; // ES6 import syntax
 
 let myUnusedVariable = 42;
 
