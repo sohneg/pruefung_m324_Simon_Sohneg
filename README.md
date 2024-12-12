@@ -1,1 +1,1 @@
-# pruefung_m324_Simon_Sohneg
+Prüfung M324
